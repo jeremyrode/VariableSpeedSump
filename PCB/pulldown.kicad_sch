@@ -887,7 +887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 133.35 100.965 0)
 			(effects
 				(font

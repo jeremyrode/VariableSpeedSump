@@ -1083,7 +1083,7 @@
 		)
 		(uuid "1e6d8441-0fbf-4ba5-bb1d-6bee468bb5dd")
 	)
-	(text "Gain = 3.2"
+	(text "Gain = 3.1"
 		(exclude_from_sim no)
 		(at 129.54 106.68 0)
 		(effects
@@ -1115,17 +1115,6 @@
 			(justify left bottom)
 		)
 		(uuid "853d7109-d02c-4d94-ad66-9500d73e1251")
-	)
-	(text "1uF & 32k is 32 ms\nTime Constant\n\n"
-		(exclude_from_sim no)
-		(at 172.72 104.14 0)
-		(effects
-			(font
-				(size 3 3)
-			)
-			(justify left bottom)
-		)
-		(uuid "b5b8c2c4-2981-41ca-a543-a296b91e659c")
 	)
 	(text "50A / 1600 * 30 Ohms = 0.94 V\n"
 		(exclude_from_sim no)
@@ -1459,7 +1448,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10u"
 			(at 168.91 93.345 0)
 			(effects
 				(font
@@ -1487,6 +1476,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JL Part#" "C15850"
 			(at 165.1 91.44 0)
 			(effects
 				(font
@@ -1744,7 +1742,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30"
+		(property "Value" "33"
 			(at 111.76 90.805 0)
 			(effects
 				(font
@@ -1772,6 +1770,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 109.22 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JL Part#" "C17634"
 			(at 109.22 88.9 0)
 			(effects
 				(font
@@ -1817,7 +1824,7 @@
 				)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "1M"
 			(at 135.89 96.52 90)
 			(effects
 				(font
@@ -1845,6 +1852,15 @@
 		)
 		(property "Description" ""
 			(at 135.89 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JL Part#" "C17514"
+			(at 135.89 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1890,7 +1906,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "470k"
 			(at 123.19 106.045 0)
 			(effects
 				(font
@@ -1918,6 +1934,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 120.65 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JL Part#" "C17709"
 			(at 120.65 104.14 0)
 			(effects
 				(font
@@ -1963,7 +1988,7 @@
 				)
 			)
 		)
-		(property "Value" "BAS33"
+		(property "Value" "M7"
 			(at 143.51 83.82 0)
 			(effects
 				(font
@@ -1971,7 +1996,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 143.51 81.915 0)
 			(effects
 				(font
@@ -2016,6 +2041,15 @@
 				(hide yes)
 			)
 		)
+		(property "JL Part#" "C95872"
+			(at 143.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "69c60865-32f2-44dc-9975-5f8f81784d0a")
 		)
@@ -2042,7 +2076,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ebf05cd7-48fd-47c1-8f57-0f20e14e7ef8")
 		(property "Reference" "J1"
@@ -2136,7 +2170,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W10.16mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 128.27 86.36 0)
 			(effects
 				(font
@@ -2155,6 +2189,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 128.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JL Part#" "C7950"
 			(at 128.27 86.36 0)
 			(effects
 				(font

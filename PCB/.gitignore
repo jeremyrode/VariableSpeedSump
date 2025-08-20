@@ -4,6 +4,10 @@
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
 # Format documentation: http://kicad-pcb.org/help/file-formats/
 
+#JR
+/PCB-backups
+/jlpcb_fab
+
 # Temporary files
 *.000
 *.bak
