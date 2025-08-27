@@ -54,7 +54,7 @@ def logDataWifi():
         print('Waiting for connection...')
         counter = 0
         if not wlan.isconnected():
-            log_retry_timer.init(mode=machine.Timer.ONE_SHOT,period=2_000,callback=all_buttons_off)
+            log_retry_timer.init(mode=machine.Timer.ONE_SHOT,period=2_000,callback=all_buttons_off) # type: ignore
         print('\nIP Address: ', wlan.ifconfig()[0])
         try:
             print("Trying to Post")
@@ -76,8 +76,8 @@ def pumpSpeedFeedback():
         button_delay()
 
 # Start up the timers
-logging_timer.init(mode=machine.Timer.PERIODIC,period=900_000,callback=logDataWifi)
-feedback_loop_timer.init(mode=machine.Timer.PERIODIC,period=10_000,callback=pumpSpeedFeedback)
+logging_timer.init(mode=machine.Timer.PERIODIC,period=900_000,callback=logDataWifi) # type: ignore
+feedback_loop_timer.init(mode=machine.Timer.PERIODIC,period=10_000,callback=pumpSpeedFeedback) # type: ignore
 
 while True: #Main loop, just take measurments
     depth = level_sensor_adc.read_u16() / DATA_IIR_CONST + depth * (DATA_IIR_CONST - 1) / DATA_IIR_CONST 
