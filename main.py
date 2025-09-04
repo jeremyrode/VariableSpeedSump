@@ -8,10 +8,10 @@ import ujson
 
 print('boot')
 ## GPIO Setup for pump buttons
-power_button = machine.Pin(9, mode=machine.Pin.OUT, pull=None, value=0) # type: ignore
-pause_button = machine.Pin(11, mode=machine.Pin.OUT, pull=None, value=0) # type: ignore
-up_button = machine.Pin(14, mode=machine.Pin.OUT, pull=None, value=0) # type: ignore
-down_button = machine.Pin(15, mode=machine.Pin.OUT, pull=None, value=0) # type: ignore
+power_button = machine.Pin(15, mode=machine.Pin.OUT, pull=None, value=0)    # type: ignore
+pause_button = machine.Pin(12, mode=machine.Pin.OUT, pull=None, value=0)    # type: ignore
+up_button = machine.Pin(11, mode=machine.Pin.OUT, pull=None, value=0)       # type: ignore
+down_button = machine.Pin(14, mode=machine.Pin.OUT, pull=None, value=0)     # type: ignore
 ## ADC Setup
 ct1_sensor_adc = machine.ADC(machine.Pin(26))    
 ct2_sensor_adc = machine.ADC(machine.Pin(27))   
